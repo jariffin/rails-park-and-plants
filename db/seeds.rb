@@ -12,12 +12,12 @@ Garden.destroy_all
 puts "Creating gardens"
 garden = Garden.create!(
     name: "Eden",
-    picture: "https://unsplash.com/photos/wzcw_-sn0fk"
+    picture: "https://raw.githubusercontent.com/lewagon/fullstack-images/master/rails/parks-and-plants/garden_2.jpg"
   )
 
 garden = Garden.create!(
     name: "Wonderland",
-    picture: "https://unsplash.com/photos/ycAzNfHtcWk"
+    picture: "https://raw.githubusercontent.com/lewagon/fullstack-images/master/rails/parks-and-plants/garden_1.jpg"
   )
 
 puts "#{garden.name}"
