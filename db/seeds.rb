@@ -5,3 +5,19 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+puts "Destroy all"
+Garden.destroy_all
+
+puts "Creating gardens"
+garden = Garden.create!(
+    name: "Eden",
+    picture: "https://unsplash.com/photos/wzcw_-sn0fk"
+  )
+
+garden = Garden.create!(
+    name: "Wonderland",
+    picture: "https://unsplash.com/photos/ycAzNfHtcWk"
+  )
+
+puts "#{garden.name}"
