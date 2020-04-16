@@ -33,3 +33,27 @@
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
+
+
+.mr-3 {
+  background-color: red;
+}
+
+.d-flex {
+  background-color: green;
+  width: 900px;
+}
+.container {
+  background-color: blue;
+
+}
+
+.trash {
+  background-color: yellow;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
